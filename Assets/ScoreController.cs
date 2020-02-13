@@ -44,6 +44,6 @@ public class ScoreController : MonoBehaviour
     void point(int a)
     {
         score += a;
-        this.scoreText.GetComponent<Text>().text = "Score:" + score.ToString("D4");
+        this.scoreText.GetComponent<Text>().text = "Score:" + score;
     }
 }
